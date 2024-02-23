@@ -1,0 +1,26 @@
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .imageContainer {
+    display: flex; /* Utiliser Flexbox pour placer les éléments en ligne */
+    justify-content: space-between; /* Espacer les éléments pour qu'ils soient à l'extrémité gauche et droite */
+  }
+  
+  .imageContainer img {
+    height: auto;
+  
+    max-width: 60%;
+    width: 45%; /* Pour que chaque image occupe 45% de la largeur de son conteneur */
+  }
+  body {
+    background-color: beige; /* Définir la couleur de fond de la page sur beige */
+  }
+ 
+  
